@@ -20,9 +20,9 @@ This crew is ideal for:
 
 - CrewAI version: 0.121.0
 - API Keys needed:
-  - OpenAI Key: [Instructions for obtaining]
-  - Hunter.IO Key: [Instructions for obtaining]
-  - SerperDev Key: [Instructions for obtaining]
+  - Gemini Key: To obtain a Gemini API key, sign into Google AI Studio with a Google account, click "Get API Key" from the left-hand menu, and select "Create API key in new project" to generate and copy the key.
+  - Hunter.IO Key: To obtain a Hunter.io API key, create a free account on Hunter.io, log in, navigate to the "API" section in your dashboard, and copy or generate your unique API key.
+  - SerperDev Key: To obtain a Serper.dev API key, sign up for a free account at serper.dev, verify your email, log in, navigate to the "API Keys" section in your dashboard, and generate or copy your unique API key.
 - Additional dependencies: 
   - Pydantic version: >=2.11.5
 
