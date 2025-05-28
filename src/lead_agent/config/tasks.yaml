@@ -1,0 +1,94 @@
+research_companies:
+  description: >
+    Research and identify **exactly 10 potential companies** in the {niche} industry which are {topic} size that are likely to benefit from our service: {service}.
+    
+    Focus on companies that are actively hiring, growing fast, or showing signs of digital expansion.
+
+    Your final output MUST be a JSON array of exactly 10 companies. Do NOT return fewer than 10.
+
+    Each company must include:
+    - "name": Company name
+    - "website": Website URL
+    - "description": What the company does in 1–2 lines
+    - "reason": A short sentence why this company is a good lead for our service
+
+    DO NOT include explanations, markdown, or additional text — only the JSON array.
+
+  expected_output: >
+    A JSON array of exactly 10 companies, each with:
+    - name
+    - website
+    - description
+    - reason
+
+  output_file: output/{topic}_{niche}_{service}_companies.json
+
+find_contacts:
+  description: >
+    You are given a JSON Array of 10 companies in JSON format from the task `research_companies`.
+
+    PARSE the JSON to extract the list. Then, for EACH company, find ONE decision-maker.
+    Your job is to find exactly 1 decision maker per company. You MUST return exactly 10 contacts.
+
+    For each company:
+    - Parse the JSON input.
+    - Use the company name and website to look up one decision maker (e.g., Founder, CMO, CTO).
+    - For each contact, provide:
+      - "company": Company name
+      - "full_name": Full name of the contact
+      - "title": Job title
+      - "linkedin_url": LinkedIn profile link
+      - "email": Verified or deliverable email using Hunter.io or a similar service
+
+    DO NOT include explanations, markdown, or any other output. Return ONLY a JSON array of 10 contacts.
+
+  expected_output: >
+    A JSON array of exactly 10 decision makers, each with:
+    - company
+    - full_name
+    - title
+    - linkedin_url
+    - email
+
+  output_file: output/{topic}_{niche}_{service}_contacts.json
+  context:
+    - research_companies
+  
+
+
+write_emails:
+  description: >
+    You will be given a JSON array of exactly 10 decision makers from a previous task.
+
+    Your task is to write 1 highly personalized cold email for each contact in that list.
+
+    YOU MUST:
+    - Parse the `find_contacts` context as a JSON array.
+    - For EACH contact, write an email using:
+      - Their name
+      - Their job title
+      - The company they work for
+    - Mention how our service ({service}) can help based on the company’s industry or growth.
+
+    Make sure the email is respectful, relevant, and not generic. Do NOT fabricate names or use placeholders like "John Doe".
+
+    Your response MUST be a JSON array of exactly 10 email objects, and each must include:
+    - "email": the recipient’s email
+    - "name": their full name
+    - "subject": catchy, relevant subject line
+    - "body": full email text (3–6 sentences)
+
+    DO NOT return Markdown, explanations, or any other format — only the JSON array.
+
+  expected_output: >
+    A JSON array of exactly 10 cold emails, each with:
+    - email
+    - name
+    - subject
+    - body
+
+  output_file: output/{topic}_{niche}_{service}_emails.json
+  context:
+    - find_contacts
+    - research_companies
+

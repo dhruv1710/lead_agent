@@ -1,0 +1,64 @@
+{
+  "companies": [
+    {
+      "name": "Chamberlain Group",
+      "website": "http://www.chamberlaingroup.com",
+      "description": "Chamberlain Group is a global leader in smart access solutions, manufacturing products like garage door openers and gate entry systems.",
+      "reason": "They are investing heavily in digital transformation, advanced analytics, and smart app development (myQ technology), indicating a need for AI-driven solutions."
+    },
+    {
+      "name": "OPENLANE (formerly KAR Global)",
+      "website": "https://corporate.openlane.com",
+      "description": "OPENLANE is a digital marketplace for wholesale used vehicles, offering online auction platforms and related services.",
+      "reason": "They are focused on being an asset-light, digital marketplace and investing in AI-powered vehicle inspections, showing a strong push towards digital and AI adoption."
+    },
+    {
+      "name": "Cars Commerce (formerly Cars.com)",
+      "website": "https://www.cars.com",
+      "description": "Cars Commerce is an audience-driven technology company providing a digital marketplace and solutions for buying and selling cars.",
+      "reason": "Their rebranding to Cars Commerce and focus on being a 'connected platform' with digital tools and acquisitions like DealerClub (digital wholesale auction) signal significant digital expansion."
+    },
+    {
+      "name": "Cooper Standard",
+      "website": "https://www.cooperstandard.com",
+      "description": "Cooper Standard is a global supplier of systems and components for the automotive industry, including sealing, fuel and brake delivery, and fluid transfer systems.",
+      "reason": "They have publicly announced leadership changes to accelerate innovation and digital transformation, making them a prime candidate for AI solutions to enhance operations."
+    },
+    {
+      "name": "Gentex Corporation",
+      "website": "https://www.gentex.com",
+      "description": "Gentex is a technology company that designs, develops, manufactures, and markets digital vision, connected car, dimmable glass, and fire protection products.",
+      "reason": "Their focus on high-tech electronic products, digital vision, connected car technologies, and consistent showcase of innovation at CES indicates a strong alignment with AI and app-based services."
+    },
+    {
+      "name": "Visteon Corporation",
+      "website": "https://www.visteon.com",
+      "description": "Visteon is a global technology company that designs, engineers, and manufactures innovative cockpit electronics and connected car solutions.",
+      "reason": "They are pioneering the 'software-defined future of mobility' and focusing on the 'digital, electric, and autonomous evolution of vehicles,' suggesting a high demand for advanced AI and app solutions."
+    },
+    {
+      "name": "BorgWarner Inc.",
+      "website": "https://www.borgwarner.com",
+      "description": "BorgWarner provides innovative and sustainable mobility solutions for the vehicle market, including eProducts and systems for combustion, hybrid, and electric vehicles.",
+      "reason": "Their strong electrification strategy ('Charging Forward'), significant investment in eProducts, and digital transformation initiatives make them a key target for AI-driven efficiency and innovation."
+    },
+    {
+      "name": "Lear Corporation",
+      "website": "https://www.lear.com",
+      "description": "Lear is a global automotive technology leader in Seating and E-Systems, enabling superior in-vehicle experiences.",
+      "reason": "Their focus on 'electrification, connectivity and software innovations', 'Digital Engineering Transformation', and LIV (Lear Innovation Ventures) investing in mobility tech startups indicates a strong drive towards digital expansion and new technologies."
+    },
+    {
+      "name": "Tenneco",
+      "website": "https://www.tenneco.com",
+      "description": "Tenneco is a global manufacturer of clean air, powertrain, and ride performance products and systems for automotive and commercial vehicle original equipment manufacturers and the aftermarket.",
+      "reason": "As a large supplier undergoing industry shifts (e.g. EV transition, acquired by Apollo Funds), they are likely investing in digital transformation and operational efficiencies where AI can help."
+    },
+    {
+      "name": "Adient",
+      "website": "https://www.adient.com",
+      "description": "Adient is a global leader in automotive seating, designing, manufacturing, and marketing a full range of seating systems and components.",
+      "reason": "Their focus on innovation in seating (e.g., smart/adaptive seating) and manufacturing excellence suggests opportunities for AI in design, production optimization, and supply chain management as they navigate automotive industry changes."
+    }
+  ]
+}
