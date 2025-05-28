@@ -1,0 +1,74 @@
+{
+  "contacts": [
+    {
+      "company": "Chamberlain Group",
+      "full_name": "Jeff Meredith",
+      "title": "CEO",
+      "linkedin_url": "https://www.linkedin.com/in/jeffreymeredith/",
+      "email": "jeff.meredith@chamberlain.com"
+    },
+    {
+      "company": "OPENLANE (formerly KAR Global)",
+      "full_name": "Peter Kelly",
+      "title": "CEO",
+      "linkedin_url": "https://www.linkedin.com/in/peter-kelly-0b129b10/",
+      "email": "peter.kelly@openlane.com"
+    },
+    {
+      "company": "Cars Commerce (formerly Cars.com)",
+      "full_name": "Alex Vetter",
+      "title": "CEO",
+      "linkedin_url": "https://www.linkedin.com/in/alexvetter",
+      "email": "alex.vetter@cars.com"
+    },
+    {
+      "company": "Cooper Standard",
+      "full_name": "Jeffrey Edwards",
+      "title": "Chairman and CEO",
+      "linkedin_url": "https://www.linkedin.com/in/jeffrey-s-edwards-38930b8/",
+      "email": "jeffrey.edwards@cooperstandard.com"
+    },
+    {
+      "company": "Gentex Corporation",
+      "full_name": "Steve Downing",
+      "title": "President and CEO",
+      "linkedin_url": "https://www.linkedin.com/in/steve-downing-7457946",
+      "email": "steve.downing@gentex.com"
+    },
+    {
+      "company": "Visteon Corporation",
+      "full_name": "Sachin Lawande",
+      "title": "President and CEO",
+      "linkedin_url": "https://www.linkedin.com/in/sachin-lawande-40125938",
+      "email": "slawande@visteon.com"
+    },
+    {
+      "company": "BorgWarner Inc.",
+      "full_name": "Frédéric Lissalde",
+      "title": "President and CEO",
+      "linkedin_url": "https://www.linkedin.com/in/frédéric-lissalde-11602214",
+      "email": "flissalde@borgwarner.com"
+    },
+    {
+      "company": "Lear Corporation",
+      "full_name": "Ray Scott",
+      "title": "President and CEO",
+      "linkedin_url": "https://www.linkedin.com/in/raymond-e-scott-jr-04b7b710/",
+      "email": "rscott@lear.com"
+    },
+    {
+      "company": "Tenneco",
+      "full_name": "James Kamsickas",
+      "title": "President and CEO",
+      "linkedin_url": "https://www.linkedin.com/in/james-kamsickas-41351127/",
+      "email": "Not Found"
+    },
+    {
+      "company": "Adient",
+      "full_name": "Doug Del Grosso",
+      "title": "President and CEO",
+      "linkedin_url": "https://www.linkedin.com/in/doug-delgrosso-a425b810/",
+      "email": "doug.delgrosso@adient.com"
+    }
+  ]
+}
