@@ -5,8 +5,7 @@ import requests
 import os
 from crewai.tools import tool
 
-# HUNTER_API_KEY = os.getenv("HUNTER_API_KEY")
-HUNTER_API_KEY = "0a6c8bd916805e2c1972318fbb5284f2b596d640"
+HUNTER_API_KEY = os.getenv("HUNTER_API_KEY")
 
 @tool("hunter_email_lookup_tool")
 def hunter_email_lookup(input: Dict[str, str]) -> str:
